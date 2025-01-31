@@ -64,7 +64,6 @@ PyJWT==2.10.0
 PyMsgBox==1.0.9
 pyparsing==3.2.1
 pyperclip==1.9.0
-pypiwin32==223
 pyppmd==1.1.0
 PyRect==0.2.0
 PyScreeze==1.0.1
@@ -75,7 +74,6 @@ python-dotenv==1.0.1
 pytube==15.0.0
 pytweening==1.2.0
 pytz==2024.2
-pywhatkit==5.4
 pyzstd==0.16.2
 rarfile==4.2
 requests==2.32.3
