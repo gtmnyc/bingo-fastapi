@@ -8,6 +8,11 @@ from datetime import datetime
 # Initialize FastAPI app
 app = FastAPI()
 
+# Root endpoint to confirm API is running
+@app.get("/")
+def read_root():
+    return {"message": "FastAPI is running successfully!"}
+
 # Dropbox credentials
 APP_KEY = '99hl0e4g22uysd1'
 APP_SECRET = 'w16oh618rf7u56i'
